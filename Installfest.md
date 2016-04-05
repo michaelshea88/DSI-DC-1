@@ -159,7 +159,7 @@ $ source ~/.bashrc
 
 PostgreSQL is a database, similar to MySQL, that we'll be using later in class. Install Postgres with the following steps:
 
-Follow the instructions for your operating system below
+1. Follow the instructions for your operating system below
 
  #### Mac Users
 
