@@ -159,7 +159,7 @@ $ source ~/.bashrc
 
 PostgreSQL is a database, similar to MySQL, that we'll be using later in class. Install Postgres with the following steps:
 
-1. Follow the instructions for your operating system below
+Follow the instructions for your operating system below
 
  #### Mac Users
 
@@ -176,7 +176,7 @@ PostgreSQL is a database, similar to MySQL, that we'll be using later in class. 
   $ sudo apt-get install postgresql postgresql-contrib postgresql-client
   ```
 
-2. You need to add your user as a role in postgres so you can access the `psql` console seamlessly. When prompted for a password enter your user's password **ilovedatascience**
+  You need to add your user as a role in postgres so you can access the `psql` console seamlessly. When prompted for a password enter your user's password **ilovedatascience**
 
 ```bash
 $ sudo -i su - postgres
