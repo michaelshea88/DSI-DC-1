@@ -168,7 +168,7 @@ PostgreSQL is a database, similar to MySQL, that we'll be using later in class. 
   * Open the Postgres.app (using "right-click + open" since it is an application that isn't from the Mac App Store)
   * Look for the elephant in the the menu bar.
 
- #### Linux Users
+ #### Linux Users (Only for PC)
   * [Download Postgres](http://www.postgresql.org/download/linux/ubuntu/)
   * On Ubuntu, you can also [install Postgres](https://help.ubuntu.com/community/PostgreSQL) from the package manager:
 
