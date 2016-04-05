@@ -105,7 +105,7 @@ $ source ~/.bashrc
 
  ##### A) By running this jupyter-notebook:
 
- * [Download the installfest-test notebook](./installfest-test.ipynb)
+ * [Download the installfest-test notebook](https://gist.github.com/jeff-boykin/c6d8b4bcda3471e4e2d989a2697f3ecb)
  * Open a terminal, navigate to your download folder, and run `jupyter`
 
  ```bash
