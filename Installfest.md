@@ -204,31 +204,22 @@ Test that this works by typing `psql`. You should be presented with the postgres
 
 ## Part 7. Text Editors
 
-A data scientist frequently writes scripts to process data, perform analysis, and create visualizations, webpages, and other end products, so you'll need a good text editor. If you don't already have a preference, try [Atom](https://atom.io/) or [Sublime](http://www.sublimetext.com/). Both editors are available for most platforms.
+A data scientist frequently writes scripts to process data, perform analysis, and create visualizations, webpages, and other end products, so you'll need a good text editor. If you don't already have a preference, try [Atom](https://atom.io/)
 
-> Instructors should modify these options based on their preferences.
-
-1. Download the editor of your choice from their website.
+1. Download the editor 
 2. Install the package by double clicking the file icon or from the command line
 3. Run your editor from the applications menu, or from the command line, like so:
 
 
 ```bash
-$ subl
 $ atom
 ```
 
-This example would open up Sublime or Atom, respectively. Whichever editor you choose, be sure to practice using it!
+This example would open up Atom, respectively. 
 
 #### Configure Git with your Text Editor
 
 Finally, you'll want to tell `git` which editor it should use for your commits.
-
-* If you choose to use Sublime, you would type:
-
- ```bash
- $ git config --global core.editor "subl --wait --new-window"
- ```
 
 * If you choose to use Atom, you would type:
 
