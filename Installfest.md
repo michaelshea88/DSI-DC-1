@@ -236,6 +236,13 @@ Finally, you'll want to tell `git` which editor it should use for your commits.
  $ git config --global core.editor "atom --wait"
  ```
 
+## Part 8. Authorize Garnet
+
+Please click the link below to authorize Garnet! 
+* Garnet is a tool that we use to track attendance, grade homework, projects, etc. 
+* https://garnet.wdidc.org/github/authorize?invite_code=72484e52aa5e7c5240308d2ccaecbd38
+
+
 ---
 
 That's it! Now you're ready to begin GA's Data Science Immersive. See you on the first day of class!
