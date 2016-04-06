@@ -1,59 +1,39 @@
 ---
-title: Intro to Python 1
-duration: "1:5"
-creator:
-    name: Lucy Williams
-    city: DC
+title: Programming Fundamentals and Python 1
+
 ---
 
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Intro to Python: Datatypes
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Programming Fundamentals and Python 1
 
 Week 1 | Lesson 1.3
 
 ### LEARNING OBJECTIVES
 *After this lesson, you will be able to:*
+- Define what a programming language is
+- Differentiate between frontend and backend languages
 - Define integers, strings, tuples, lists, and dictionaries
 - Demonstrate arithmetic operations and string operations
 - Demonstrate variable assignment
-
-### INSTRUCTOR PREP
-- Review upcoming project deliverables, as needed
-- Review what was covered yesterday and what is going to be covered tomorrow
 
 ### STUDENT PRE-WORK
 *Before this lesson, you should already be able to:*
 - Describe/define Python data types
 
-### LESSON GUIDE
+## Introduction: What is programming? (5 mins)
 
-| TIMING  | TYPE  | TOPIC  |
-|:-:|---|---|
-| 5 min  | [Introduction](#introduction)   | Python Data Types  |
-| 10 min  | [Demo / Codealong / Guided Practice](#demo)  | Integers  |
-| 10 min  | [Demo / Codealong / Guided Practice](#demo)  | Strings  |
-| 10 min  | [Demo / Codealong / Guided Practice](#demo)  | Tuples  |
-| 10 min  | [Demo / Codealong / Guided Practice](#demo)  | Lists  |
-| 10 min  | [Demo / Codealong / Guided Practice](#demo)  | Dictionaries  |
-| 10 min  | [Demo / Codealong / Guided Practice](#demo)  | Arithmetic operations and String operations  |
-| 10 min  | [Independent Practice](#ind-practice)  |   |
-| 5 min  | [Conclusion](#conclusion)  |   |
-
-### ALTERNATE LESSON GUIDE
-
-Some students might already know Python quite well so we are offering this _optional_ code challenge to warm-up on while we go over Python fundamentals with the rest of the class.
-
-| TIMING  | TYPE  | TOPIC  |
-|:-:|---|---|
-| 5 min  | [Introduction](#introduction)   | Challenge  |
-| 70 min  | [Code Challenge #1](code/starter-code/Alternate%20Code%20Challenges%20-%20Week%201%20Lesson%201.2.ipynb)  | Intense Coding  |
-| 5 min  | [Conclusion](#conclusion)  |   |
-
----
-
-<a name="introduction"></a>
 ## Introduction: Python Data Types (5 mins)
 
-Integers: whole numbers from negative infinity to infinity, such as 1, 0, -5, etc.
+<details>
+<summary> {question}
+Integers
+</summary>
+```bash
+whole numbers from negative infinity to infinity, such as 1, 0, -5, etc.
+```
+</details>
+Integers
+
+whole numbers from negative infinity to infinity, such as 1, 0, -5, etc.
 
 Float: short for "floating point number," any rational number, usually used with decimals such as 2.8 or 3.14159.
 
