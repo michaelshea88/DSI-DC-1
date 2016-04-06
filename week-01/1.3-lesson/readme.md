@@ -24,16 +24,14 @@ Week 1 | Lesson 1.3
 ## Introduction: Python Data Types (5 mins)
 
 <details>
-<summary> {question}
+<summary>
 Integers
 </summary>
 ```bash
-whole numbers from negative infinity to infinity, such as 1, 0, -5, etc.
+Whole numbers from negative infinity to infinity, such as 1, 0, -5, etc.
 ```
 </details>
-Integers
 
-whole numbers from negative infinity to infinity, such as 1, 0, -5, etc.
 
 Float: short for "floating point number," any rational number, usually used with decimals such as 2.8 or 3.14159.
 
