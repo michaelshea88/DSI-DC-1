@@ -104,23 +104,31 @@ and it returns:
 ```
 </details>
 
-In Jupyter notebook type:
+In the Python shell type:
 ```bash
 -44
 ```
+<details>
+<summary>
 and it returns:
+</summary>
 ```bash
 -44
 ```
+</details>
 
-You can also perform basic math using integers as well. In Jupyter notebook type:
+You can also perform basic math using integers as well. In Python notebook type:
 ```bash
 45-19
 ```
+<details>
+<summary>
 and it returns:
+</summary>
 ```bash
 26
 ```
+</details>
 
 ## Demo / Codealong / Guided Practice: Strings (10 min)
 
