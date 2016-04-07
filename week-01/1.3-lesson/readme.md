@@ -197,11 +197,11 @@ Luke, I am your father
 The print command prints the value that 'x' stands for on the screen. It removes the quotations. Whenever you type something into a type that isn't an integer, syntax (the commands that you give python, such as print), or variable (such as x just was) you need to put it into quotations. You can use 'single' or "double" quotations.
 
 
-## Demo / Codealong / Guided Practice: Tuples (10 min)
+## Demo: Tuples (5 min)
 #### Tuples
 A tuple is an unchangeable sequence of values.
 When you typed ('I love Python') you only included one element.
-In Jupyter notebook type:
+In the Python shell type:
 ```bash
 x = ("Kirk", "Picard", "Spock")
 ```
@@ -211,10 +211,15 @@ Now type:
 ```bash
 print(x[1])
 ```
+<details>
+<summary>
 and it returns:
+</summary>
 ```bash
 Picard
 ```
+</details>
+
 
 You may think that it is odd that it returned element 2 instead of element 1. The reason that it did this is because Python starts numbering at 0. element 1 = 0, element 2= 1, element 3= 2. You can also call on the elements in reverse order.
 
@@ -222,36 +227,46 @@ Now type:
 ```bash
 print(x[-1])
 ```
+<details>
+<summary>
 and it returns:
+</summary>
 ```bash
 Spock
 ```
+</details>
 
-## Demo / Codealong / Guided Practice: Lists (10 min)
+
+## Demo: Lists (5 min)
 #### Lists
 A list is a changeable sequence of data. A list is contained by square brackets i.e. [1,2,3]
-In Jupyter notebook type:
+In the Python shell type:
 ```bash
 x = ["Lord", "of", "the", "Rings"]
 x[2] = "Frodo"
 print(x)
 ```
 
+<details>
+<summary>
 and it returns:
+</summary>
 ```bash
 ['Lord', 'of', 'Frodo', 'Rings']
 ```
+</details>
+
 
 The code above changes element number 2 in x.
 
 
-## Demo / Codealong / Guided Practice: Dictionaries (10 min)
+## Demo: Dictionaries (5 min)
 #### Dictionaries
 Dictionaries contain a key and a value. { } enclose dictionaries (Note, that you can also construct a set with curly brackets. The first input in a dictionary pair is the 'key'. The second input in a
 dictionary pair is the 'value'. The general format looks like this:
 key1:value1
 
-In Jupyter notebook type:
+In the Python shell type:
 ```bash
 x = {'key1':'value1', 'key2':'value2'}
 ```
@@ -263,9 +278,9 @@ print(x)
 
 These may not be in the exact order in which you typed them. The reason for the different order is because dictionaries have no order. You cannot type x[0] and be referring to 'key1':'value1' . What you do to refer to a value is type the key.
 
-In Jupyter notebook type:
+In the Python shell type:
 ```bash
-x[key1] = 'I love Python'
+x['key1'] = 'I love Python'
 ```
 
 Now type:
@@ -273,10 +288,15 @@ Now type:
 print(x)
 ```
 
+<details>
+<summary>
 and it returns:
+</summary>
 ```bash
-{'key2': 'value2', 'key1': 'value1', 'I love Python': 'I love Python'}
+{'key1': 'I love Python', 'key2': 'value1'}
 ```
+</details>
+
 
 The keys stay the same but the values are changeable. You can also only have one occurrence of a key in a dictionary, but you may have the values all be the same.
 
@@ -290,10 +310,15 @@ Then type:
 print(x)
 ```
 
+<details>
+<summary>
 and it returns:
+</summary>
 ```bash
 {'key': 'value2'}
 ```
+</details>
+
 
 The first key is overwritten by the second.
 
@@ -307,16 +332,18 @@ Then type:
 print(x)
 ```
 
+<details>
+<summary>
 and it returns:
+</summary>
 ```bash
 {'key2': 'value', 'key1': 'value'}
 ```
+</details>
 
 This example shows that you can create two separate keys with the same value.
 
 [Integers, Strings, Tuples, Lists, Dictionaries](https://en.wikiversity.org/wiki/Python/Basic_data_types)
-
-**Check:** Define/describe: integer, string, tuple, list, dictionary
 
 
 <a name="demo"></a>
@@ -324,38 +351,58 @@ This example shows that you can create two separate keys with the same value.
 
 #### Simple Math
 Math is very straightforward in Python. + adds, - subtracts, / divides, and believe it or not * multiplies. The main thing to comment on is %.  % performs a division and then returns the remainder. This is called the modulus operation.
-In Jupyter notebook type:
+In the Python shell type:
 ```bash
 9 % 3
 ```
 
+<details>
+<summary>
 and it returns:
+</summary>
 ```bash
 0
 ```
+</details>
 
 Now type:
 ```bash
 9 % 2
 ```
+</details>
 
+<details>
+<summary>
 and it returns:
+</summary>
 ```bash
 1
 ```
+</details>
 
 You can also use variables, and elements and values in simple arithmetic.
-In Jupyter notebook type:
+In the Python shell type:
 ```bash
 x = 1
 y = 5
 x + y
 ```
 
+<details>
+<summary>
 and it returns:
+</summary>
 ```bash
 6
 ```
+</details>
+
+You can also use variables, and elements and values in simple arithmetic.
+In the Python shell type:
+```bash
+6
+```
+
 That is how the variable works.
 
 
@@ -364,91 +411,114 @@ Now type:
 x = [1, 2, 3]
 x[1] + x[2]
 ```
-
+<details>
+<summary>
 and it returns:
+</summary>
 ```bash
 5
 ```
+</details>
 
 This is how you use elements from a list to perform arithmetic operations. It should be clarified that x[0] = 1, x[1] = 2, and x[2] = 3. You can also add and multiply strings, tuples, and lists.
 
-In Jupyter notebook type:
+In the Python shell type:
 ```bash
 x = {'a':1, 'b':2}
 x['a'] + x['b']
 ```
 
+<details>
+<summary>
 and it returns:
+</summary>
 ```bash
 3
 ```
+</details>
+
 That is how you do arithmetic with values from a dictionary. Don't forget to use quotations around the keys unless you use integers as the keys. Spend a couple of minutes messing around with this stuff, its fun and it'll help you remember it better. You may also add strings, tuples, and lists.
-
-**Check:** What does % do?
-
 
 #### Concatenating
 To add two strings together - to do this you just type the first string, an addition sign, the second string.
-In Jupyter notebook type:
+In the Python shell type:
 ```bash
 "X Files" + " is awesome"
 ```
 
+<details>
+<summary>
 and it returns:
+</summary>
 ```bash
 'X Files is awesome'
 ```
+</details>
 
 You can do the same with variables referring to strings.
-In Jupyter notebook type:
+In the Python shell type:
 ```bash
 x = "X Files"
 y = " is awesome"
 x + y
 ```
 
+<details>
+<summary>
 and it returns:
+</summary>
 ```bash
 'X Files is awesome'
 ```
+</details>
 
 You can do the same with tuples.
-In Jupyter notebook type:
+In the Python shell type:
 ```bash
 x = ('I', 'Love')
 y = ('True Detective Season 1',)
 print(x + y)
 ```
 
+<details>
+<summary>
 and it returns:
+</summary>
 ```bash
 ('I', 'Love', 'True Detective Season 1')
 ```
+</details>
 
 It works the same with lists. What you cannot do is combine two different kinds of types.
 
 
 #### Multiplying types
 Multiplying is very easy and straight forward.
-In Jupyter notebook type:
+In the Python shell type:
 ```bash
 x = 'the americans '
 x * 5
 ```
-
+<details>
+<summary>
 and it returns:
+</summary>
 ```bash
 'the americans the americans the americans the americans the americans '
 ```
+</details>
+
 
 Now, try it with a tuple.
-In Jupyter notebook type:
+In the Python shell type:
 ```bash
 x = ('the americans',)
 x * 5
 ```
-
+<details>
+<summary>
 and it returns:
+</summary>
 ```bash
 ('the americans',
  'the americans',
@@ -456,55 +526,63 @@ and it returns:
  'the americans',
  'the americans')
 ```
+</details>
 
-You cannot do the same with dictionaries; that would make multiple keys with the same entry name, which isn't valid in Python.
-In Jupyter notebook type:
+What happens when you try this with dictionaries?
+
+In the Python shell type:
 ```bash
 x = {'the americans':1}
 x * 5
 ```
-
+<details>
+<summary>
 and it returns:
+</summary>
 ```bash
-TypeError                                 Traceback (most recent call last)
-<Jupyter-input-16-f25efe1807bd> in <module>()
-      1 x = {'the americans':1}
-----> 2 x * 5
-
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
 TypeError: unsupported operand type(s) for *: 'dict' and 'int'
 ```
+</details>
 
+You cannot do the same with dictionaries; that would make multiple keys with the same entry name, which isn't valid in Python.
 
 #### Indexing
 You have already learned how to index in lesson 2. When you typed x[3] you were indexing. You may also index a string without first making a variable represent it.
-In Jupyter notebook type:
+In the Python shell type:
 ```bash
-"I Love Spotify"[5]
+"I Love Nicktoons"[5]
 ```
-
+<details>
+<summary>
 and it returns:
+</summary>
 ```bash
 'e'
 ```
+</details>
 
 #### Slicing
 Slicing is used to access a range of elements the way that indexing accesses one element.
-In Jupyter notebook type:
+In the Python shell type:
 ```bash
 x = "Spotify and Netflix are awesome"
 print(x[12:32])
 ```
-
+<details>
+<summary>
 and it returns:
+</summary>
 ```bash
 Netflix are awesome
 ```
+</details>
+
 The numbers that you enter after the variable (the [12:32]) are called indices.
 
 
 [arithmetic operations and string operations](https://en.wikiversity.org/wiki/Python/Basic_data_types)
-
-**Check:** What is concatenating? indexing? slicing?
 
 
 <a name="ind-practice"></a>
@@ -515,6 +593,8 @@ Pair up, make up your own statements and see if your partner can tell you what w
 <a name="conclusion"></a>
 ## Conclusion (5 mins)
 Let's check to see if we know what we learned about today:
+- Define what a programming language is
+- Differentiate between frontend and backend languages
 - Define integers, strings, tuples, lists, and dictionaries
 - Demonstrate arithmetic operations and string operations
 - Demonstrate variable assignment
