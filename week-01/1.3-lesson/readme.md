@@ -67,7 +67,7 @@ Behavior
 ### Back-end Languages
 
 Back-end programming typically consists of a server, an application and a database. Back to the ebay example, when you register as a seller,
-the application is storing your information in a database that was created on a server. A server is basically another computer reachable by the user(client) computer, but it's remote and mainly involve processing and storing data.
+the application is storing your information in a database that was created on a server. A server is basically another computer reachable by the user(client) computer, but it's remote and it's mainly used to process and store data.
 
 Examples of back-end languages include R, PHP, Python and Ruby.
 
@@ -237,6 +237,7 @@ and it returns:
 'Luke, I am your father'
 ```
 </details>
+
 Now type:
 ```bash
 print(x)
