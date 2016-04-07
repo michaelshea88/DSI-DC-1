@@ -165,7 +165,7 @@ and it returns:
 ```
 </details>
 
-You can also make a variable refer to a string. In Jupyter notebook type:
+You can also make a variable refer to a string. In Python notebook type:
 ```bash
 x= "Luke, I am your father"
 ```
