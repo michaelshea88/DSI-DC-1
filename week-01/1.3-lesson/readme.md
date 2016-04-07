@@ -204,26 +204,13 @@ and it returns:
 ```
 </details>
 
-You can also make a variable refer to a string. In Python notebook type:
-```bash
-x= "Luke, I am your father"
-```
-Now type:
-```bash
-x
-```
-<details>
-<summary>
-and it returns:
-</summary>
-```bash
-'Luke, I am your father'
-```
-</details>
+You can also make a variable refer to a string. Note that a variable name can really be anything.
+It should be semantic though.
 
-You can also make a variable refer to a string. In Python notebook type:
+In the Python shell type:
+
 ```bash
-x= "Luke, I am your father"
+hello= "it's me"
 ```
 Now type:
 ```bash
@@ -234,7 +221,7 @@ x
 and it returns:
 </summary>
 ```bash
-'Luke, I am your father'
+"it's me"
 ```
 </details>
 
