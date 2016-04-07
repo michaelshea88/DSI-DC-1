@@ -32,20 +32,54 @@ Whole numbers from negative infinity to infinity, such as 1, 0, -5, etc.
 ```
 </details>
 
+<details>
+<summary>
+Float
+</summary>
+```bash
+short for "floating point number," any rational number, usually used with decimals such as 2.8 or 3.14159.
+```
+</details>
 
-Float: short for "floating point number," any rational number, usually used with decimals such as 2.8 or 3.14159.
-
-Strings: a set of letters, numbers, or other characters.
+<details>
+<summary>
+Strings
+</summary>
+```bash
+A set of letters, numbers, or other characters.
 "Frank Underwood, I am your father."
+```
+</details>
 
-Tuples: a list with a fixed number of elements. ie x=(1,2,3) parentheses makes it a tuple.
-x = ("Kirk", "Picard", "Spock")
+<details>
+<summary>
+Tuples
+</summary>
+```bash
+A list with a fixed number of elements. ie x=(1,2,3) parentheses makes it a tuple.
+x = ("Kirk", "Picard", "Spock")"Frank Underwood, I am your father."
+```
+</details>
 
-Lists: a list without a fixed number of elements. ie x=[1,2,3] note the square brackets, a list
+<details>
+<summary>
+Lists
+</summary>
+```bash
+A list without a fixed number of elements. ie x=[1,2,3] note the square brackets, a list
 x = ["Lord", "of", "the", "Rings"]
+```
+</details>
 
-Dictionaries: a type with multiple elements i.e. x = {1: 'a','b': 2,3: 3} where you address the elements with, e.g., a text.
+<details>
+<summary>
+Dictionaries
+</summary>
+```bash
+A type with multiple elements i.e. x = {1: 'a','b': 2,3: 3} where you address the elements with, e.g., a text.
 x = {'key1':'value1', 'key2':'value2'}
+```
+</details>
 
 [Python Basic data types](https://en.wikiversity.org/wiki/Python/Basic_data_types)
 
