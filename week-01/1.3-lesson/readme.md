@@ -114,7 +114,7 @@ Tuples
 </summary>
 ```bash
 A list with a fixed number of elements. ie x=(1,2,3) parentheses makes it a tuple.
-x = ("Kirk", "Picard", "Spock")"Frank Underwood, I am your father."
+x = ("Kirk", "Picard", "Spock")
 ```
 </details>
 
@@ -123,7 +123,7 @@ x = ("Kirk", "Picard", "Spock")"Frank Underwood, I am your father."
 Lists
 </summary>
 ```bash
-A list without a fixed number of elements. ie x=[1,2,3] note the square brackets, a list
+A list without a fixed number of elements. ie x=[1,2,3] note the square brackets.
 x = ["Lord", "of", "the", "Rings"]
 ```
 </details>
@@ -234,7 +234,7 @@ print(hello)
 and it returns:
 </summary>
 ```bash
-it's me 
+it's me
 ```
 </details>
 
