@@ -19,9 +19,10 @@ Week 1 | Lesson 1.3
 *Before this lesson, you should already be able to:*
 - Describe/define Python data types
 
-## Introduction: What is programming? (5 mins)
+## What is programming? (5 mins)
 
-## Introduction: Python Data Types (5 mins)
+
+## Python Data Types (5 mins)
 
 <details>
 <summary>
@@ -85,19 +86,23 @@ x = {'key1':'value1', 'key2':'value2'}
 
 
 <a name="demo"></a>
-## Demo / Codealong / Guided Practice: Integers (10 min)
+## Demo Integers (5 min)
 
 #### Integers
 Integers are numeric values and can be stored, manipulated, and expressed inside variables without quotes.
-In Jupyter notebook type:
-```bash
-23
-```
-and it returns:
-```bash
-23
-```
 
+In the Python shell type:
+```bash
+23
+```
+<details>
+<summary>
+and it returns:
+</summary>
+```bash
+23
+```
+</details>
 
 In Jupyter notebook type:
 ```bash
