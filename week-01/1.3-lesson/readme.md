@@ -7,6 +7,7 @@ title: Programming Fundamentals and Python 1
 
 Week 1 | Lesson 1.3
 
+
 ### LEARNING OBJECTIVES
 *After this lesson, you will be able to:*
 - Define what a programming language is
@@ -19,8 +20,15 @@ Week 1 | Lesson 1.3
 *Before this lesson, you should already be able to:*
 - Describe/define Python data types
 
-## What is programming? (5 mins)
-
+## Programming Languages (10 mins)
+<details>
+<summary>
+Turn and Talk: What is a programming language?
+</summary>
+```bash
+Programming languages are how we communicate a sequence of instructions to a computer. Each language has a precise form (syntax) and precise meaning (semantics). We can&#39;t do this with human languages because they are not suited to understanding complex algorithms. 
+```
+</details>
 
 ## Python Data Types (5 mins)
 
