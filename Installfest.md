@@ -16,7 +16,7 @@ If you are running Windows, you will need to install a virtual machine that runs
 
 1. Download and install [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
  * **Note**: Make sure to also install the "Extension Pack" for your version!
-2. Download our [Ubuntu starter image here](https://www.dropbox.com/sh/vufcfq9bxjwgnqh/AACAV2of-jTfMHJxWmgG1NMAa?dl=0)
+2. Download our [Ubuntu starter image here](https://www.dropbox.com/sh/3mp1p3av2k6be4y/AADstHqUMSPRyYPWuk_C3XAJa?dl=0)
  * **Note**: You'll need at least 2-3 gbs of free disk space.
 3. Open VirtualBox and import the image
 4. Double-click the Virtual Machine on the left; the password is "**ilovedatascience**"
