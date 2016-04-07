@@ -214,7 +214,7 @@ hello= "it's me"
 ```
 Now type:
 ```bash
-x
+hello
 ```
 <details>
 <summary>
@@ -227,7 +227,7 @@ and it returns:
 
 Now type:
 ```bash
-print(x)
+print(hello)
 ```
 <details>
 <summary>
