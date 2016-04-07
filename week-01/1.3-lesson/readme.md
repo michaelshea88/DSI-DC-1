@@ -404,7 +404,7 @@ This example shows that you can create two separate keys with the same value.
 
 
 <a name="demo"></a>
-## Demo / Codealong / Guided Practice: arithmetic operations and string operations (20 mins)
+## Demo: arithmetic operations and string operations (20 mins)
 
 #### Simple Math
 Math is very straightforward in Python. + adds, - subtracts, / divides, and believe it or not * multiplies. The main thing to comment on is %.  % performs a division and then returns the remainder. This is called the modulus operation.
@@ -453,15 +453,6 @@ and it returns:
 6
 ```
 </details>
-
-You can also use variables, and elements and values in simple arithmetic.
-In the Python shell type:
-```bash
-6
-```
-
-That is how the variable works.
-
 
 Now type:
 ```bash
