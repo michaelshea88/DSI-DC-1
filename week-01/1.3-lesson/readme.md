@@ -130,18 +130,40 @@ and it returns:
 ```
 </details>
 
-## Demo / Codealong / Guided Practice: Strings (10 min)
+## Demo: Strings (5 min)
 
 #### Strings
 Strings are a type. They are the basic unit of text in Python and all the other types except integers may contain strings.
-In Jupyter notebook type:
+
+In the Python shell type:
 ```bash
 "I love Darth Vader"
 ```
+<details>
+<summary>
 and it returns:
+</summary>
 ```bash
 'I love Darth Vader'
 ```
+</details>
+
+You can also make a variable refer to a string. In Python notebook type:
+```bash
+x= "Luke, I am your father"
+```
+Now type:
+```bash
+x
+```
+<details>
+<summary>
+and it returns:
+</summary>
+```bash
+'Luke, I am your father'
+```
+</details>
 
 You can also make a variable refer to a string. In Jupyter notebook type:
 ```bash
@@ -151,18 +173,26 @@ Now type:
 ```bash
 x
 ```
+<details>
+<summary>
 and it returns:
+</summary>
 ```bash
 'Luke, I am your father'
 ```
+</details>
 Now type:
 ```bash
 print(x)
 ```
+<details>
+<summary>
 and it returns:
+</summary>
 ```bash
 Luke, I am your father
 ```
+</details>
 
 The print command prints the value that 'x' stands for on the screen. It removes the quotations. Whenever you type something into a type that isn't an integer, syntax (the commands that you give python, such as print), or variable (such as x just was) you need to put it into quotations. You can use 'single' or "double" quotations.
 
