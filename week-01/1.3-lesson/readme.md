@@ -26,9 +26,57 @@ Week 1 | Lesson 1.3
 Turn and Talk: What is a programming language?
 </summary>
 ```bash
-Programming languages are how we communicate a sequence of instructions to a computer. Each language has a precise form (syntax) and precise meaning (semantics). We can&#39;t do this with human languages because they are not suited to understanding complex algorithms. 
+Programming languages are how we communicate a sequence of instructions to a computer. Each language has a precise form (syntax) and precise meaning (semantics). We are not able to do this with human languages because they are not suited to understanding complex algorithms.
 ```
 </details>
+
+### Front-end Languages
+
+Languages that have to do with what the user sees and interacts with. These are also called client side languages. For example, when
+you go to ebay, you're interacting with the front-end.
+
+http://www.ebay.com/
+
+<details>
+<summary>
+HTML
+</summary>
+```bash
+Structure
+```
+</details>
+
+<details>
+<summary>
+CSS
+</summary>
+```bash
+Style
+```
+</details>
+
+<details>
+<summary>
+Javascript
+</summary>
+```bash
+Behavior
+```
+</details>
+
+### Back-end Languages
+
+Back-end programming typically consists of a server, an application and a database. Back to the ebay example, when you register as a seller,
+the application is storing your information in a database that was created on a server. A server is basically another computer reachable by the user(client) computer, but it's remote and mainly involve processing and storing data.
+
+Examples of back-end languages include R, PHP, Python and Ruby.
+
+In this class, we'll be learning Python.
+
+Why?
+- It's free
+- Relatively simple to code and understand. Less steep of a learning curve than R, a popular statistical language.
+- Has lots of data science libraries, frameworks, modules and toolkits.
 
 ## Python Data Types (5 mins)
 
