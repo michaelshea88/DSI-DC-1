@@ -17,9 +17,23 @@ Week 1 | Lesson 1.4
 <a name="introduction"></a>
 ## Introduction: Lists and dictionaries (10 mins)
 
-Lists are what they seem - a list of values. Each one of them is numbered, starting from zero - the first one is numbered zero, the second 1, the third 2, etc. You can remove values from the list, and add new values to the end. Example: Your many friends' names.
+<details>
+<summary>
+Lists
+</summary>
+```bash
+A list of values. Each one of them is numbered, starting from zero - the first one is numbered zero, the second 1, the third 2, etc. You can remove values from the list, and add new values to the end. Example: The names of your friends.
+```
+</details>
 
-Dictionaries are similar to what their name suggests - a dictionary. In a dictionary, you have an 'index' of words, and for each of them a definition. In python, the word is called a 'key', and the definition a 'value'. The values in a dictionary aren't numbered - they aren't in any specific order, either - the key does the same thing. You can add, remove, and modify the values in dictionaries. Example: telephone book.
+<details>
+<summary>
+Dictionaries
+</summary>
+```bash
+In a dictionary, you have an index of words, and for each of them a definition. In python, the word is called a key, and the definition a value. The values in a dictionary are not numbered - they are not in any specific order, either - the key does the same thing. You can add, remove, and modify the values in dictionaries. Example: telephone book.
+```
+</details>
 
 [Lists and Dictionaries](http://sthurlow.com/python/lesson06/)
 
