@@ -1,7 +1,3 @@
----
-title: Intro to Python 2
----
-
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Intro to Python 2
 Week 1 | Lesson 1.4
 
