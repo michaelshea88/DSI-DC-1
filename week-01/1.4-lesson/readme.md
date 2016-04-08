@@ -1,13 +1,9 @@
 ---
 title: Intro to Python 2
-duration: "1:5"
-creator:
-    name: Lucy Williams
-    city: DC
 ---
 
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Intro to Python 2
-Week 1 | Lesson 1.3
+Week 1 | Lesson 1.4
 
 ### LEARNING OBJECTIVES
 *After this lesson, you will be able to:*
@@ -18,19 +14,9 @@ Week 1 | Lesson 1.3
 *Before this lesson, you should already be able to:*
 - Define/describe/explain a list and a dictionary
 
-### LESSON GUIDE
-| TIMING  | TYPE  | TOPIC  |
-|:-:|---|---|
-| 10 min  | [Introduction](#introduction)   | Lists and dictionaries  |
-| 30 min  | [Demo / Codealong / Guided Practice](#demo)  | Lists  |
-| 5 min  | [Independent Practice](#ind-practice)  | Lists  |
-| 30 min  | [Demo / Codealong / Guided Practice](#demo)  | Dictionaries  |
-| 5 min  | [Independent Practice](#ind-practice)  | Dictionaries  |
-| 10 min  | [Conclusion](#conclusion)  |  |
-
-
 <a name="introduction"></a>
 ## Introduction: Lists and dictionaries (10 mins)
+
 Lists are what they seem - a list of values. Each one of them is numbered, starting from zero - the first one is numbered zero, the second 1, the third 2, etc. You can remove values from the list, and add new values to the end. Example: Your many friends' names.
 
 Dictionaries are similar to what their name suggests - a dictionary. In a dictionary, you have an 'index' of words, and for each of them a definition. In python, the word is called a 'key', and the definition a 'value'. The values in a dictionary aren't numbered - they aren't in any specific order, either - the key does the same thing. You can add, remove, and modify the values in dictionaries. Example: telephone book.
@@ -44,7 +30,7 @@ Dictionaries are similar to what their name suggests - a dictionary. In a dictio
 Lists are extremely similar to tuples. Lists are modifiable (mutable), so their values can be changed. Most of the time we use lists, not tuples, because we want to easily change the values of things if we need to.
 
 Lists are defined very similarly to tuples. Say you have FIVE friends, called Curly, Moe, Larry, Tweedle Dee and Tweedle Dumb. Let's create a list.
-In Jupyter notebook type:
+In the Python shell type:
 ```bash
 friends = ['Curly', 'Moe', 'Larry', 'Tweedle Dee', 'Tweedle Dumb']
 ```
@@ -53,14 +39,19 @@ then type:
 ```bash
 friends
 ```
-
-and it returns:
+<details>
+<summary>
+and it returns
+</summary>
 ```bash
 ['Curly', 'Moe', 'Larry', 'Tweedle Dee', 'Tweedle Dumb']
 ```
+</details>
 
 Let's print the 3rd friend in your list.
-In Jupyter notebook type:
+
+In the Python shell type:
+
 ```bash
 print friends[2]
 ```
