@@ -17,6 +17,26 @@ Week 1 | Lesson 1.4
 <a name="introduction"></a>
 ## Introduction: Lists and dictionaries (10 mins)
 
+In our last lesson, we went over the 6 Python data types.
+
+<details>
+<summary>
+What were they?
+</summary>
+```bash
+- Integers
+- Floats
+- Strings
+- Tuples
+- Lists
+- Dictionaries
+```
+</details>
+
+Lists and dictionaries are the most fundamental data structures in Python. In this lesson, we'll be learning to create and perform operations on them.
+
+Turn and Talk: Work in pairs and white table the definitions of list and dictionary.
+
 <details>
 <summary>
 Lists
@@ -41,42 +61,58 @@ In a dictionary, you have an index of words, and for each of them a definition. 
 <a name="demo"></a>
 ## Demo / Codealong / Guided Practice: Lists (30 mins)
 
-Lists are extremely similar to tuples. Lists are modifiable (mutable), so their values can be changed. Most of the time we use lists, not tuples, because we want to easily change the values of things if we need to.
+Lists are extremely similar to tuples.
 
-Lists are defined very similarly to tuples. Say you have FIVE friends, called Curly, Moe, Larry, Tweedle Dee and Tweedle Dumb. Let's create a list.
+<details>
+<summary>
+Why would we use a list over a tuple?
+</summary>
+```bash
+Lists are modifiable (mutable), so their values can be changed. Most of the time we use lists, not tuples, because we want to easily change the values of things if we need to.
+```
+</details>
+
+Say you have FIVE friends, called Curly, Moe, Larry, Tweedle Dee and Tweedle Dumb. Let's create a list.
+
+How do we create a list?
+
+<details>
+<summary>
 In the Python shell type:
+</summary>
 ```bash
 friends = ['Curly', 'Moe', 'Larry', 'Tweedle Dee', 'Tweedle Dumb']
 ```
+</details>
 
 then type:
 ```bash
 friends
 ```
-<details>
-<summary>
-and it returns
-</summary>
-```bash
-['Curly', 'Moe', 'Larry', 'Tweedle Dee', 'Tweedle Dumb']
-```
-</details>
 
 Let's print the 3rd friend in your list.
 
+<details>
+<summary>
 In the Python shell type:
-
+</summary>
 ```bash
 print friends[2]
 ```
+</details>
 
+<details>
+<summary>
 and it returns:
+</summary>
 ```bash
 Larry
 ```
+</details>
 
 Let's add to the list.
-In Jupyter notebook type:
+
+In the Python shell type:
 ```bash
 friends.append('Samwise Gamgee')
 ```
@@ -86,34 +122,44 @@ then type:
 friends
 ```
 
+<details>
+<summary>
 and it returns:
+</summary>
 ```bash
 ['Curly', 'Moe', 'Larry', 'Tweedle Dee', 'Tweedle Dumb', 'Samwise Gamgee']
 ```
-Samwise Gamgee has been added to the end of your friends list.
+</details>
 
-Let's remove your 4th friend.
-In Jupyter notebook type:
+append() is what we call a built-in list operation for Python. Let's play around with a some more.
+
+Let's remove your 4th friend using del.
+
+<details>
+<summary>
+In the Python shell type:
+</summary>
 ```bash
 del friends[3]
 ```
+</details>
 
 then type:
 ```bash
 friends
 ```
 
+<details>
+<summary>
 and it returns:
+</summary>
 ```bash
 ['Curly', 'Moe', 'Larry', 'Tweedle Dumb', 'Samwise Gamgee']
 ```
-Tweedle Dee has been removed.
+</details>
 
 
 [Lists](http://sthurlow.com/python/lesson06/)
-
-**Check**: Why are lists used more often then tuples?
-Why did we use 'del friends[3]' to remove the 4th friend and not 'del friends[4]'?
 
 
 <a name="ind-practice"></a>
