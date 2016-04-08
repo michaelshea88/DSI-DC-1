@@ -13,7 +13,7 @@ Week 1 | Lesson 1.4
 <a name="introduction"></a>
 ## Introduction: Lists and dictionaries (10 mins)
 
-In our last lesson, we went over the 6 Python data types.
+In our last lesson, we went over the six Python data types.
 
 <details>
 <summary>
@@ -55,7 +55,7 @@ In a dictionary, you have an index of words, and for each of them a definition. 
 
 
 <a name="demo"></a>
-## Demo / Codealong / Guided Practice: Lists (30 mins)
+## Guided Practice: Lists (30 mins)
 
 Lists are extremely similar to tuples.
 
