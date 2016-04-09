@@ -38,6 +38,10 @@ Turn and Talk: Work in pairs and white table the definitions of list and diction
 Lists
 </summary>
 ```bash
+- A collection of values
+- Can be changed; not fixed
+- Each value has a number associated with it, starting at 0
+- Denoted by square brackets
 A list of values. Each one of them is numbered, starting from zero - the first one is numbered zero, the second 1, the third 2, etc. You can remove values from the list, and add new values to the end. Example: The names of your friends.
 ```
 </details>
@@ -47,7 +51,7 @@ A list of values. Each one of them is numbered, starting from zero - the first o
 Dictionaries
 </summary>
 ```bash
-In a dictionary, you have an index of words, and for each of them a definition. In python, the word is called a key, and the definition a value. The values in a dictionary are not numbered - they are not in any specific order, either - the key does the same thing. You can add, remove, and modify the values in dictionaries. Example: telephone book.
+In a dictionary, you have an index of words, and for each of them a definition. In Python, the word is called a key, and the definition a value. The values in a dictionary are not numbered - they are not in any specific order, either - the key does the same thing. You can add, remove, and modify the values in dictionaries. Example: telephone book.
 ```
 </details>
 

@@ -1,8 +1,3 @@
----
-title: Programming Fundamentals and Python 1
-
----
-
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Programming Fundamentals and Python 1
 
 Week 1 | Lesson 1.3
@@ -10,22 +5,21 @@ Week 1 | Lesson 1.3
 
 ### LEARNING OBJECTIVES
 *After this lesson, you will be able to:*
-- Define what a programming language is
-- Differentiate between frontend and backend languages
-- Define integers, strings, tuples, lists, and dictionaries
-- Demonstrate arithmetic operations and string operations
-- Demonstrate variable assignment
-
-### STUDENT PRE-WORK
-*Before this lesson, you should already be able to:*
-- Describe/define Python data types
+- Talk about programming at a high level
+- Differentiate between front-end and back-end programming
+- Identify Python data structures
+- Use Python to perform arithmetic and string operations
+- Store values into variables
 
 ## Programming Languages (10 mins)
 <details>
 <summary>
-Turn and Talk: What is a programming language?
+Turn and Talk: What is programming?
 </summary>
 ```bash
+-How we communicate a sequence of instructions to a computer
+-Every programming language has a precise form (syntax) and meaning(semantics)
+
 Programming languages are how we communicate a sequence of instructions to a computer. Each language has a precise form (syntax) and precise meaning (semantics). We are not able to do this with human languages because they are not suited to understanding complex algorithms.
 ```
 </details>
@@ -75,8 +69,11 @@ In this class, we'll be learning Python.
 
 Why?
 - It's free
-- Relatively simple to code and understand. Less steep of a learning curve than R, a popular statistical language.
+- Relatively simple to code and understand.
+- Less steep of a learning curve than R, a popular statistical language.
 - Has lots of data science libraries, frameworks, modules and toolkits.
+
+https://www.python.org/dev/peps/pep-0020/
 
 ## Python Data Types (5 mins)
 
@@ -85,7 +82,7 @@ Why?
 Integers
 </summary>
 ```bash
-Whole numbers from negative infinity to infinity, such as 1, 0, -5, etc.
+Positive and negative whole numbers
 ```
 </details>
 
@@ -94,7 +91,9 @@ Whole numbers from negative infinity to infinity, such as 1, 0, -5, etc.
 Float
 </summary>
 ```bash
-short for "floating point number," any rational number, usually used with decimals such as 2.8 or 3.14159.
+- Short for "floating point number"
+- Any rational number, usually used with decimals
+- Ex: 2.8 or 3.14159.
 ```
 </details>
 
@@ -103,8 +102,8 @@ short for "floating point number," any rational number, usually used with decima
 Strings
 </summary>
 ```bash
-A set of letters, numbers, or other characters.
-"Frank Underwood, I am your father."
+- A set of letters, numbers, or other characters contained in double or single quotes.
+- Ex: "Frank Underwood, I am your father."
 ```
 </details>
 
@@ -113,8 +112,10 @@ A set of letters, numbers, or other characters.
 Tuples
 </summary>
 ```bash
-A list with a fixed number of elements. ie x=(1,2,3) parentheses makes it a tuple.
-x = ("Kirk", "Picard", "Spock")
+- Similar to a list
+- Can\'t be modified
+- Denoted using parentheses or nothing
+- Ex: x = ("Kirk", "Picard", "Spock")
 ```
 </details>
 
@@ -123,8 +124,10 @@ x = ("Kirk", "Picard", "Spock")
 Lists
 </summary>
 ```bash
-A list without a fixed number of elements. ie x=[1,2,3] note the square brackets.
-x = ["Lord", "of", "the", "Rings"]
+- An ordered collection
+- Can be modified
+- Denoted using square brackets
+- Ex: x = ["Lord", "of", "the", "Rings"]
 ```
 </details>
 
@@ -133,8 +136,10 @@ x = ["Lord", "of", "the", "Rings"]
 Dictionaries
 </summary>
 ```bash
-A type with multiple elements i.e. x = {1: 'a','b': 2,3: 3} where you address the elements with, e.g., a text.
-x = {'key1':'value1', 'key2':'value2'}
+- An unordered set of key, value pairs
+- Keys must be unique
+- Has multiple elements 
+- Ex: x = {'key1':'value1', 'key2':'value2'}
 ```
 </details>
 
@@ -234,9 +239,22 @@ print(hello)
 and it returns:
 </summary>
 ```bash
-it's me
+it\'s me
 ```
 </details>
+
+<details>
+<summary>
+What did the print command do?
+</summary>
+```bash
+- Displayed the value of the variable
+- Removed quotes in string
+-
+```
+</details>
+
+The print command
 
 The print command prints the value that 'x' stands for on the screen. It removes the quotations. Whenever you type something into a type that isn't an integer, syntax (the commands that you give python, such as print), or variable (such as x just was) you need to put it into quotations. You can use 'single' or "double" quotations.
 
