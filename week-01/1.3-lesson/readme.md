@@ -138,7 +138,7 @@ Dictionaries
 ```bash
 - An unordered set of key, value pairs
 - Keys must be unique
-- Has multiple elements 
+- Has multiple elements
 - Ex: x = {'key1':'value1', 'key2':'value2'}
 ```
 </details>
@@ -646,8 +646,8 @@ Pair up, make up your own statements and see if your partner can tell you what w
 <a name="conclusion"></a>
 ## Conclusion (5 mins)
 Let's check to see if we know what we learned about today:
-- Define what a programming language is
-- Differentiate between frontend and backend languages
-- Define integers, strings, tuples, lists, and dictionaries
-- Demonstrate arithmetic operations and string operations
-- Demonstrate variable assignment
+- Talk about programming at a high level
+- Differentiate between front-end and back-end programming
+- Identify Python data structures
+- Use Python to perform arithmetic and string operations
+- Store values into variables

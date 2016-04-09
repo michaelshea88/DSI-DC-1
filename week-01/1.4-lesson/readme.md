@@ -11,7 +11,7 @@ Week 1 | Lesson 1.4
 - Define/describe/explain a list and a dictionary
 
 <a name="introduction"></a>
-## Introduction: Lists and dictionaries (10 mins)
+## Introduction: Lists and Dictionaries (10 mins)
 
 In our last lesson, we went over the six Python data types.
 
@@ -42,7 +42,6 @@ Lists
 - Can be changed; not fixed
 - Each value has a number associated with it, starting at 0
 - Denoted by square brackets
-A list of values. Each one of them is numbered, starting from zero - the first one is numbered zero, the second 1, the third 2, etc. You can remove values from the list, and add new values to the end. Example: The names of your friends.
 ```
 </details>
 
@@ -51,7 +50,10 @@ A list of values. Each one of them is numbered, starting from zero - the first o
 Dictionaries
 </summary>
 ```bash
-In a dictionary, you have an index of words, and for each of them a definition. In Python, the word is called a key, and the definition a value. The values in a dictionary are not numbered - they are not in any specific order, either - the key does the same thing. You can add, remove, and modify the values in dictionaries. Example: telephone book.
+- A collection of key and value pairs
+- Keys are unique, values are not
+- Values can be of any data type, but keys must be immutable types (integer, string, tuple)
+- No specific order of key, value pairs
 ```
 </details>
 
@@ -61,14 +63,14 @@ In a dictionary, you have an index of words, and for each of them a definition. 
 <a name="demo"></a>
 ## Guided Practice: Lists (30 mins)
 
-Lists are extremely similar to tuples.
+Lists are similar to tuples.
 
 <details>
 <summary>
 Why would we use a list over a tuple?
 </summary>
 ```bash
-Lists are modifiable (mutable), so their values can be changed. Most of the time we use lists, not tuples, because we want to easily change the values of things if we need to.
+Lists are modifiable, tuples are fixed. Most of the time we use lists, not tuples, because we want to easily change the values of things if we need to.
 ```
 </details>
 
@@ -131,7 +133,7 @@ and it returns:
 ```
 </details>
 
-append() is what we call a built-in list operation for Python. Let's play around with a some more.
+append() is what we call a built-in list operation for Python. Let's play around with a couple more.
 
 Let's remove your 4th friend using del.
 
@@ -158,13 +160,22 @@ and it returns:
 ```
 </details>
 
+Now let's see what the pop() method does.
+
+In the Python shell type:
+```bash
+friends.pop()
+```
+then type:
+```bash
+friends
+```
 
 [Lists](http://sthurlow.com/python/lesson06/)
 
 
 <a name="ind-practice"></a>
 ## Independent Practice: Topic (5 minutes)
-Suggestions:
 Create your own list
 Return only one element in the list
 Add/delete something to the list
