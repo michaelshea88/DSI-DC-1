@@ -166,10 +166,18 @@ In the Python shell type:
 ```bash
 friends.pop()
 ```
-then type:
+What happens when you type:
 ```bash
 friends
 ```
+<details>
+<summary>
+it returns:
+</summary>
+```bash
+['Curly', 'Moe', 'Larry', 'Tweedle Dumb']
+```
+</details>
 
 [Lists](http://sthurlow.com/python/lesson06/)
 
