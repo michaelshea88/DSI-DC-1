@@ -70,11 +70,12 @@ Lists are similar to tuples.
 Why would we use a list over a tuple?
 </summary>
 ```bash
-Lists are modifiable, tuples are fixed. Most of the time we use lists, not tuples, because we want to easily change the values of things if we need to.
+- Lists are modifiable, tuples are fixed.
+- Most of the time we use lists, not tuples, because we want to easily change the values of things if we need to.
 ```
 </details>
 
-Say you have FIVE friends, called Curly, Moe, Larry, Tweedle Dee and Tweedle Dumb. Let's create a list.
+Say you have FIVE friends named Skeeter, Patty, Roger, Bebe and Porkchop. Let's create a list.
 
 How do we create a list?
 
@@ -83,7 +84,7 @@ How do we create a list?
 In the Python shell type:
 </summary>
 ```bash
-friends = ['Curly', 'Moe', 'Larry', 'Tweedle Dee', 'Tweedle Dumb']
+friends = ['Skeeter', 'Patty', 'Roger', 'Bebe', 'Porkchop']
 ```
 </details>
 
@@ -108,7 +109,7 @@ print friends[2]
 and it returns:
 </summary>
 ```bash
-Larry
+Roger
 ```
 </details>
 
@@ -116,7 +117,7 @@ Let's add to the list.
 
 In the Python shell type:
 ```bash
-friends.append('Samwise Gamgee')
+friends.append('Doug')
 ```
 
 then type:
@@ -129,11 +130,11 @@ friends
 and it returns:
 </summary>
 ```bash
-['Curly', 'Moe', 'Larry', 'Tweedle Dee', 'Tweedle Dumb', 'Samwise Gamgee']
+['Skeeter', 'Patty', 'Roger', 'Bebe', 'Porkchop', 'Doug']
 ```
 </details>
 
-append() is what we call a built-in list operation for Python. Let's play around with a couple more.
+append() is what we call a method for Python. Let's play around with a couple more.
 
 Let's remove your 4th friend using del.
 
@@ -156,7 +157,7 @@ friends
 and it returns:
 </summary>
 ```bash
-['Curly', 'Moe', 'Larry', 'Tweedle Dumb', 'Samwise Gamgee']
+['Skeeter', 'Patty', 'Roger', 'Porkchop', 'Doug']
 ```
 </details>
 
@@ -175,7 +176,7 @@ friends
 it returns:
 </summary>
 ```bash
-['Curly', 'Moe', 'Larry', 'Tweedle Dumb']
+['Skeeter', 'Patty', 'Roger', 'Porkchop']
 ```
 </details>
 
@@ -190,9 +191,15 @@ Add/delete something to the list
 
 
 <a name="demo"></a>
-## Demo / Codealong / Guided Practice: Dicitonaries (30 mins)
+## Demo: Dictionaries (30 mins)
 
-Now you have a list of your friends, but let's say you want to call them. A list won't
+Now you have a list of your friends, but let's say you want to store their birthday information to retrieve at another time.
+
+You can't do this with a list. Here's where dictionaries come into play.
+
+
+
+A list won't
 do, you need to associate your friends with their phone numbers. You need a telephone
 book. For this we need a dictionary. We know that dictionaries have keys and values.
 In other words, your friends' names would be the keys and their phone numbers
@@ -297,6 +304,3 @@ Add/delete something to the dictionary
 - Partner up and explain what a list and a dictionary are to your partners
 - What are the differences between a list and a dictionary?
 - What are the two things you need for a dictionary?
-
-## Bonus Challenges
-Once you've mastered the basics, further your understanding of Python by attempting "[Alternate Code Challenges 2](code/starter-code/Alternate%20Code%20Challenges%20-%20Week%201%20Lesson%201.2.ipynb)".
