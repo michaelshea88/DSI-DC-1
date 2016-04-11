@@ -25,9 +25,9 @@
 
 - Schedule, Scope, and Sequence (coming soon)
 
-- [Squad meetings](https://github.com/lucywi/DSI-DC1-admin/blob/master/squad%20meetings.md)
-
 - [Squads](squads.md)
+
+- [Squad meetings](https://github.com/lucywi/DSI-DC1-admin/blob/master/squad%20meetings.md)
 
 - Student Calendar (coming soon) 
 
