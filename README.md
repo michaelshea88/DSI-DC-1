@@ -2,13 +2,9 @@
 
 ## Table of Contents
 
-- [DSI Onboarding Tasks](https://github.com/lucywi/DSI-DC1-admin/blob/master/DSI%20Onboarding%20Tasks)
-
 - [Asking for Help](asking-for-help.md)
 
 - [Attendance](attendance.md)
-
-- [Student Calendar](coming soon) 
 
 - [Class standards](class-standards.md)
 
@@ -19,15 +15,23 @@
 - [Incentives](incentives.md)
   - Includes attendance and homework policies
 
+- [Installfest](https://www.dropbox.com/sh/3mp1p3av2k6be4y/AADstHqUMSPRyYPWuk_C3XAJa?dl=0)
+
 - [Office Hours](office-hours.md)
+
+- [Onboarding Tasks](https://github.com/lucywi/DSI-DC1-admin/blob/master/DSI%20Onboarding%20Tasks)
+
+- Outcomes Roadmap (coming soon)
 
 - [Squad meetings](https://github.com/lucywi/DSI-DC1-admin/blob/master/squad%20meetings.md)
 
 - Schedule, Scope, and Sequence (coming soon)
 
+- Student Calendar (coming soon) 
+
 - [Squads](squads.md)
 
-- Outcomes Roadmap (coming soon)
+
 
 ## [Garnet](http://garnet.wdidc.org)
 
