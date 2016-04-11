@@ -23,13 +23,13 @@
 
 - Outcomes Roadmap (coming soon)
 
-- [Squad meetings](https://github.com/lucywi/DSI-DC1-admin/blob/master/squad%20meetings.md)
-
 - Schedule, Scope, and Sequence (coming soon)
 
-- Student Calendar (coming soon) 
+- [Squad meetings](https://github.com/lucywi/DSI-DC1-admin/blob/master/squad%20meetings.md)
 
 - [Squads](squads.md)
+
+- Student Calendar (coming soon) 
 
 
 
