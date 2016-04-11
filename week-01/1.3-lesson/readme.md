@@ -73,6 +73,8 @@ Why?
 - Less steep of a learning curve than R, a popular statistical language.
 - Has lots of data science libraries, frameworks, modules and toolkits.
 
+
+https://www.datacamp.com/community/tutorials/r-or-python-for-data-analysis
 https://www.python.org/dev/peps/pep-0020/
 
 ## Python Data Types (5 mins)
