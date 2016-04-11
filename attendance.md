@@ -2,7 +2,7 @@
 
 ## Policy
 
-You will take your own attendance through Garnet. (Keep in mind: We've designed it so that we can tell what wifi router you're using -- and therefore whether or not you're actually in our classrooms!)
+You will take your own attendance through Garnet. (Keep in mind: We've designed it so that we can tell what wifi router you're using -- and therefore whether or not you're actually in our classrooms!) Please check [the incentives for arriving on-time](incentives.md#attendance)!
 
 If today begins at 9:00, then any attendance taken at 9:01 will be considered "tardy". Attendance cannot be taken three hours after the start time. That is: if you try to take attendance at 12:01, you will be considered "absent". There are **no exceptions,** even if you forgot and the instructors saw you were here.
 
@@ -14,11 +14,11 @@ Please check in for class while connected to GA's wireless network (`GA-Guest`),
 
 ## How to do it
 
-### 1. Log in to http://garnet.wdidc.org. You'll see something like this:
+### 1. Log in to http://garnet.wdidc.org. This is an administrative tracking system set up by the Web Development Immersive instructional team so you might see references to that program throughout the site. When you log in, you'll see something like this:
 
 ![View on log-in](http://i.imgur.com/zOuHGdS.png)
 
-### 2. Click the name of your current cohort. In this case, that's "DC DSI1". You'll see this:
+### 2. Click the name of your current cohort. In this case, that's "DSI-1". You'll see something like this:
 
 ![Check-in button](http://imgur.com/6HFj8lq.png)
 
