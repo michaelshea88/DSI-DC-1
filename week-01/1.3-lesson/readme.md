@@ -209,8 +209,7 @@ and it returns:
 ```
 </details>
 
-You can also make a variable refer to a string. Note that a variable name can really be anything.
-It should be semantic though.
+You can also make a variable refer to a string. Note that a variable name can really be anything. It should be semantic though.
 
 In the Python shell type:
 
@@ -639,7 +638,7 @@ The numbers that you enter after the variable (the [12:32]) are called indices.
 
 
 <a name="ind-practice"></a>
-## Independent Practice: Topic (10 minutes)
+## Pair Practice: Topic (10 minutes)
 Pair up, make up your own statements and see if your partner can tell you what will be returned BEFORE running it.
 
 

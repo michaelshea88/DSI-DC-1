@@ -75,7 +75,7 @@ Why would we use a list over a tuple?
 ```
 </details>
 
-Say you have FIVE friends named Skeeter, Patty, Roger, Bebe and Porkchop. Let's create a list.
+Say you have five friends named Skeeter, Patty, Roger, Bebe and Porkchop. Let's create a list.
 
 How do we create a list?
 
@@ -184,7 +184,7 @@ it returns:
 
 
 <a name="ind-practice"></a>
-## Independent Practice: Topic (5 minutes)
+## Group Practice: Topic (10 minutes)
 Create your own list
 Return only one element in the list
 Add/delete something to the list
@@ -193,108 +193,96 @@ Add/delete something to the list
 <a name="demo"></a>
 ## Demo: Dictionaries (30 mins)
 
-Now you have a list of your friends, but let's say you want to store their birthday information to retrieve at another time.
+Now you have a list of your friends, but let's say you want to store their favorite color to retrieve at another time.
 
 You can't do this with a list. Here's where dictionaries come into play.
 
 
 
-A list won't
-do, you need to associate your friends with their phone numbers. You need a telephone
-book. For this we need a dictionary. We know that dictionaries have keys and values.
-In other words, your friends' names would be the keys and their phone numbers
+We know that dictionaries have keys and values.
+In other words, your friends' names would be the keys and their favorite colors
 would be the values.
 
 When you initially create a dictionary, it is very much like making a tuple or list.
-Tuples have ( and ) things, lists have [ and ] things. Guess what! dictionaries
+Tuples have ( and ) things, lists have [ and ] things. Guess what! Dictionaries
 have { and } things - curly braces.
 
-In Jupyter notebook type:
+In the Python shell type:
 ```bash
 # Make the phone book:
-phonebook = {'Curly':123456, 'Moe':789012, 'Larry':345678, 'Tweedle Dee':901234, 'Tweedle Dumb':567890}
+colors = {'Skeeter':green, 'Patty':blue, 'Roger':red, 'Porkchop':pink}
 ```
 
 then type:
 ```bash
-phonebook
+colors
 ```
 
 and it returns:
 ```bash
-{'Curly': 123456,
- 'Larry': 345678,
- 'Moe': 789012,
- 'Tweedle Dee': 901234,
- 'Tweedle Dumb': 567890}
+{'Skeeter': green,
+ 'Patty': blue,
+ 'Roger': red,
+ 'Porkchop': pink}
 ```
 
 Let's add a new friend to the phonebook.
-In Jupyter notebook type:
+In the Python shell type:
 ```bash
-phonebook['Humpty Dumpty'] = 234567
+colors['Doug'] = yellow
 ```
 
 then type:
 ```bash
-phonebook
+colors
 ```
 
 and it returns:
 ```bash
-{'Curly': 123456,
- 'Humpty Dumpty': 234567,
- 'Larry': 345678,
- 'Moe': 789012,
- 'Tweedle Dee': 901234,
- 'Tweedle Dumb': 567890}
+{'Skeeter': green,
+ 'Doug': yellow,
+ 'Patty': blue,
+ 'Roger': red,
+ 'Porkchop': pink}
 ```
 
 Let's delete a friend to the phonebook.
-In Jupyter notebook type:
+In the Python shell type:
 ```bash
-del phonebook['Curly']
+del colors['Roger']
 ```
 
 then type:
 ```bash
-phonebook
+colors
 ```
 
 and it returns:
 ```bash
-{'Humpty Dumpty': 234567,
- 'Larry': 345678,
- 'Moe': 789012,
- 'Tweedle Dee': 901234,
- 'Tweedle Dumb': 567890}
+{'Doug': yellow,
+ 'Skeeter': green,
+ 'Patty': blue,
+ 'Porkchop': pink}
 ```
 
 Let's create a new dictionary with nothing in it to start with:
-In Jupyter notebook type:
+In the Python shell type:
 ```bash
 ages = {}
 ```
 
 Now, let's add some names and ages to the dictionary.
 ```bash
-ages['Humpty Dumpty'] = 23
-ages['Larry'] = 19
-ages['Moe'] = 78
-ages['Tweedle Dee'] = 45
+ages['Doug'] = 28
+ages['Skeeter'] = 29
+ages['Patty'] = 30
+ages['Porkchop'] = 27
 ```
 
 [Dictionaries](http://sthurlow.com/python/lesson06/)
 
-**Check**:
-() are used for tuples, lists, or dictionaries?
-[] are used for tuples, lists, or dictionaries?
-{} are used for tuples, lists, or dictionaries?
-
-
 <a name="ind-practice"></a>
-## Independent Practice: Topic (5 minutes)
-Suggestions:
+## Group Practice: Topic (10 minutes)
 Create your own dictionary
 Return only one element in the dictionary
 Add/delete something to the dictionary
