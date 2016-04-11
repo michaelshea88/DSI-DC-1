@@ -15,8 +15,6 @@
 - [Incentives](incentives.md)
   - Includes attendance and homework policies
 
-- [Installfest](https://www.dropbox.com/sh/3mp1p3av2k6be4y/AADstHqUMSPRyYPWuk_C3XAJa?dl=0)
-
 - [Office Hours](office-hours.md)
 
 - [Onboarding Tasks](https://github.com/lucywi/DSI-DC1-admin/blob/master/DSI%20Onboarding%20Tasks)
